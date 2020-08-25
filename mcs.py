@@ -206,7 +206,15 @@ def decryption():
 
 
 def brute_force():
-    print("Maybe, I will build this part in future!")
-
+    pt =  plain_text()
+    ct = cipher_text()
+    k = 0
+    for i in range(len(pt)):
+        while ((((ord(pt[i]) - 65) * k) % 26) != (ord(ct[i]) - 65)):
+            k = k + 1
+        else:
+            key = k
+    print("Key is: ", key)
+    display()
 
 display()
