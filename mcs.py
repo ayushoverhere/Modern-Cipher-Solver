@@ -190,8 +190,8 @@ def decryption():
     k = inverse()
 
     try:
-        k = k % 26
-        # if(k >= 1 and k <= 26):
+
+        #if 1 <= k <= 26:
         if True:
             for i in ct.split():
                 for j in i:
