@@ -191,7 +191,7 @@ def decryption():
 
     try:
 
-        #if 1 <= k <= 26:
+        # if 1 <= k <= 26:
         if True:
             for i in ct.split():
                 for j in i:
@@ -206,15 +206,33 @@ def decryption():
 
 
 def brute_force():
-    pt =  plain_text()
     ct = cipher_text()
-    k = 0
-    for i in range(len(pt)):
-        while ((((ord(pt[i]) - 65) * k) % 26) != (ord(ct[i]) - 65)):
-            k = k + 1
-        else:
-            key = k
-    print("Key is: ", key)
+    pt = plain_text()
+
+    try:
+        if True:
+            for a in range(1, 26):
+                k = for_brute(a)
+                plt = ""
+                for i in ct.split():
+                    for j in i:
+                        total = (((ord(j) - 65) * k) % 26)
+                        plt = plt + (chr(total + 65))
+                    plt = plt + " "
+                if plt.lower() == (pt.lower() + " "):
+                    print("Key is: ", a)
+    except:
+        print("Something went wrong")
+        brute_force()
     display()
+
+
+def for_brute(a):
+    a = a % 26
+    for x in range(1, 26):
+        if (a * x) % 26 == 1:
+            return x
+    return 1
+
 
 display()
