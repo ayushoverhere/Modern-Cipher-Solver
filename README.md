@@ -3,7 +3,7 @@ In this program, I tried to add a caesar cipher and multiplicative cipher encryp
 I added functionality like bruteforce only for caesar cipher for now.
 I tried my best efforts to handle incorrect input, and some errors, and I always wanted to have a optimised version of the program so that it will take less time and less memory.
 
-# Conclusions
+# Conclusion
 Well, the logic part is simple.
 I have wasted most of my time in optimising it ,making inputs error free and the program error free.
 # Future Plan 
