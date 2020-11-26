@@ -1,5 +1,5 @@
 # Modern-Cipher-Solver
-In this program, I tried to add a caesar cipher and multiplicative cipher with encryption and decryption function.
+It can solve some of the most common cypher like Caesar cipher and Multiplicative cipher with encryption and decryption function.
 I added functionality like bruteforce.
 I tried my best efforts to handle incorrect input, and some errors, and I always wanted to have a optimised version of the program so that it will take less time and less memory.
 
