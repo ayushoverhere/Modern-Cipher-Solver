@@ -1,6 +1,6 @@
 # Modern-Cipher-Solver
-In this program, I tried to add a caesar cipher and multiplicative cipher encryption and decryption function.
-I added functionality like bruteforce only for caesar cipher for now.
+In this program, I tried to add a caesar cipher and multiplicative cipher with encryption and decryption function.
+I added functionality like bruteforce.
 I tried my best efforts to handle incorrect input, and some errors, and I always wanted to have a optimised version of the program so that it will take less time and less memory.
 
 # Conclusions
